@@ -13,7 +13,7 @@ test('should sign in with valid credentials', async ({ page, baseURL }) => {
   expect(await title.innerText()).toBe('My Projects')
 })
 
-test('shound not be able to sign in with invalid email format', async ({
+test('should not be able to sign in with invalid email format', async ({
   page,
   baseURL
 }) => {
