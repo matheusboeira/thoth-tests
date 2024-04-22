@@ -28,11 +28,9 @@ pnpm run test:ui
 
 #### Visualização
 
-[![Testes com interface gráfica](https://i.imgur.com/1Q2Q5Zm.png)](https://i.imgur.com/1Q2Q5Zm.png)
+<img src="https://github.com/matheusboeira/thoth-tests/assets/76896958/947bb6f8-7ddf-4772-9266-f73c7dc2b3a3" alt="Com interface gráfica" width="100%"/>
 
 ## :notebook_with_decorative_cover: Sem interface gráfica
-
-> No final da execução, será gerado um relatório com o resultado dos testes. Para visualizar o relatório, basta abrir a url `http://localhost:9323` em um navegador.
 
 Para executar os testes sem interface gráfica, execute o comando abaixo:
 
@@ -40,9 +38,16 @@ Para executar os testes sem interface gráfica, execute o comando abaixo:
 pnpm run test
 ```
 
+No final da execução, será gerado um relatório com o resultado dos testes. Para visualizar o relatório, basta executar o comando abaixo:
+
+```bash
+pnpm run test:report
+```
+
 #### Visualização
 
-[![Testes sem interface gráfica](https://i.imgur.com/1Q2Q5Zm.png)](https://i.imgur.com/1Q2Q5Zm.png)
+<img src="https://github.com/matheusboeira/thoth-tests/assets/76896958/24c220ec-3e2b-4cf5-9c5f-84f7356b6283" alt="Sem interface gráfica" width="100%"/>
+
 
 
 
