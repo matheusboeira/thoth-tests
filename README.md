@@ -1,1 +1,1 @@
-# thoth-tests
+# Testes Thoth
